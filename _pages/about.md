@@ -2,33 +2,35 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href="https://www.wharton.upenn.edu/" target="_blank">U Penn '26</a>. Math. Markets. Code.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>The Wharton School</p>
+    <p>Jon M. Huntsman Hall,</p>
+    <p>3730 Walnut St, Philadelphia, PA 19104</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}" -- PGT Changed to false undisplay on home page
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+As a Wharton Economics senior with a Computer Science minor, I operate at the intersection of <b>math, markets, and code</b> to build high-performance systems and analytics. I translate complex data into practical, scalable solutions that serve real customers.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My current research, under the guidance of <a href="https://gileshooker.com/" target="_blank">Prof. Giles Hooker</a>, explores how <b>graph databases and ontologies</b> can be leveraged within AI/ML frameworks to build more <a>reliable and auditable</a> systems for regulatory and trade compliance.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I have built and deployed performant, scalable production systems. At <a href="https://www.flagright.com/" target="_blank">Flagright</a>  a Y Combinator-backed fintech, I engineered and deployed a Node.js sanctions-screening microservice on AWS. This system supported over 25,000 daily transactions with sub-800ms P95 latency. 
+
+My passion lies in building efficient, data-driven solutions. Recent projects include a hybrid graph-document store that achieved 92% top-K recall and cut query time by 38%, a real-time sanctions detector that alerts in under a second, and a transit access map with similarly rapid response times. My work is powered by a diverse toolkit, including Python, Java, Node.js, AWS, and GCP, enabling me to turn mathematical precision into market-ready code.
