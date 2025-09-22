@@ -19,7 +19,7 @@ function determineGiscusTheme() {
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
     "data-repo": "pranavgt/mysite",
-    "data-repo-id": "",
+    "data-repo-id": "pranavgt",
     "data-category": "Comments",
     "data-category-id": "",
     "data-mapping": "title",
