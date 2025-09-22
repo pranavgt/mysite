@@ -25,7 +25,7 @@ pagination:
 
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
+    {{ site.blog_description }} 
   </div>
   {% endif %}
 
@@ -102,15 +102,15 @@ pagination:
 {% endif %}
 
   <ul class="post-list">
-
+    
     {% if page.pagination.enabled %}
       {% assign postlist = paginator.posts %}
     {% else %}
       {% assign postlist = site.posts %}
     {% endif %}
-
-    {% for post in postlist %}
-
+    
+    {% for post in postlist %}     
+    
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
     {% else %}
@@ -120,8 +120,9 @@ pagination:
     {% assign tags = post.tags | join: "" %}
     {% assign categories = post.categories | join: "" %}
 
-    <li>
 
+    <li>
+  
 {% if post.thumbnail %}
 
 <div class="row">
@@ -183,10 +184,11 @@ pagination:
   </div>
 </div>
 {% endif %}
+ 
     </li>
 
     {% endfor %}
-
+ 
   </ul>
 
 {% if page.pagination.enabled %}
