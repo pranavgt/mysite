@@ -62,9 +62,9 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read     # Allow reading the source code
-  pages: write       # <--- THIS IS CRITICAL for deployment
-  id-token: write    # Required for authentication with Pages service
+  contents: read # Allow reading the source code
+  pages: write # <--- THIS IS CRITICAL for deployment
+  id-token: write # Required for authentication with Pages service
 
 jobs:
   deploy:
