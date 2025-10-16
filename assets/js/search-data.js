@@ -30,12 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/mysite/resume/";
           },
-        },{id: "nav-interests",
-          title: "interests",
-          description: "some things catch my attention...",
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "Materials for courses you taught. Replace this text with your description.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/mysite/interests/";
+            window.location.href = "/mysite/teaching/";
           },
         },{id: "post-agi-builders-meetup-sfo",
         
