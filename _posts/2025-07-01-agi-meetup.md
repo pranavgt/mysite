@@ -23,4 +23,3 @@ The community demos were a testament to this, with an open and curious energy th
         {% include figure.liquid path="assets/img/blog/2025-07-01-agi-meetup-3.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-

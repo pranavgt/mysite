@@ -120,9 +120,8 @@ pagination:
     {% assign tags = post.tags | join: "" %}
     {% assign categories = post.categories | join: "" %}
 
-
     <li>
-  
+
 {% if post.thumbnail %}
 
 <div class="row">
@@ -188,7 +187,7 @@ pagination:
     </li>
 
     {% endfor %}
- 
+
   </ul>
 
 {% if page.pagination.enabled %}
