@@ -106,4 +106,8 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          # ADD THIS CRITICAL LINE TO AUTHENTICATE THE DEPLOYMENT PUSH
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Your existing parameter:
           folder: _site
