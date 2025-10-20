@@ -19,7 +19,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: pg_favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://pranavgt.github.io # the base hostname & protocol for your site
-baseurl: /mysite # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: #/mysite  the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -52,7 +52,7 @@ footer_fixed: true
 search_enabled: true
 socials_in_search: true
 posts_in_search: true
-bib_search: true
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -145,14 +145,14 @@ newsletter:
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
-
+# -- PGT -- commenting everything under collections toprevent showing up in search
 collections:
   books:
     output: true
   news:
     defaults:
       layout: post
-    output: true
+      output: true
   projects:
     output: true
 
@@ -195,6 +195,11 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _pages/teaching.md
+  - _projects/?_project.md
+  - _news/announcement_*.md
+  - _books/*.*
+
 keep_files:
   - CNAME
   - .nojekyll
