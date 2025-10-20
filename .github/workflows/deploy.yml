@@ -132,6 +132,7 @@ jobs:
     # Permissions are critical and correctly defined globally,
     # but repeating them here is good practice.
     permissions:
+      contents: write
       pages: write
       id-token: write
 
