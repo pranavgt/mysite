@@ -1,0 +1,87 @@
+name: Deploy site
+
+on:
+  push:
+    branches:
+      - master
+      - main
+  workflow_dispatch:
+
+# Grant necessary permissions at the workflow level for official deployment
+permissions:
+  contents: read # Read permission for checkout
+  pages: write # Write permission needed for official deployment
+  id-token: write # Required for secure deployment actions
+
+jobs:
+  # -----------------------------------------------------------
+  # 1. BUILD JOB: Builds the site and uploads the artifact.
+  # -----------------------------------------------------------
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code 🛎️
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby 💎
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3.5"
+          bundler-cache: true
+
+      - name: Setup Python 🐍
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
+      - name: Update _config.yml ⚙️
+        uses: fjogeleit/yaml-update-action@main
+        with:
+          commitChange: false
+          valueFile: "_config.yml"
+          propertyPath: "giscus.repo"
+          value: ${{ github.repository }}
+
+      - name: Install and Build Jekyll 🔧
+        run: |
+          sudo apt-get update && sudo apt-get install -y imagemagick
+          pip3 install --upgrade nbconvert
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+
+      - name: Purge unused CSS 🧹
+        run: |
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
+
+      # CRITICAL: This is the ONLY deployment-related step in the build job.
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "_site"
+
+  # -----------------------------------------------------------
+  # 2. DEPLOY JOB: Runs only if the build is successful and uses
+  #                GitHub's official deployment action.
+  # -----------------------------------------------------------
+  deploy:
+    needs: build # Depends on the build job succeeding
+
+    # Configure environment matching GitHub Pages settings
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    # NOTE: Permissions are inherited, but kept here for clarity.
+    permissions:
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        # This is the ONLY deployment step in the entire workflow.
+        uses: actions/deploy-pages@v4
