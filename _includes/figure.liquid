@@ -29,7 +29,7 @@
             sizes="95vw"
           {% endif %}
         >
-      {% endunless %}
+      {% endunless -%}
     {% endif %}
     <img
       src="{% if include.url %}{{ include.url }}{% elsif include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"

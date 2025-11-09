@@ -1,11 +1,16 @@
 function determineGiscusTheme() {
-  let theme = localStorage.getItem("theme") || document.documentElement.getAttribute("data-theme") || "system";
+  
+    let theme =
+      localStorage.getItem("theme") ||
+      document.documentElement.getAttribute("data-theme") ||
+      "system";
 
-  if (theme === "dark") return "dark";
-  if (theme === "light") return "light";
+    if (theme === "dark") return "dark";
+    if (theme === "light") return "light";
 
-  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  return prefersDark ? "dark" : "light";
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    return prefersDark ? "dark" : "light";
+  
 }
 
 (function setupGiscus() {
@@ -29,6 +34,9 @@ function determineGiscusTheme() {
   };
 
   let giscusScript = document.createElement("script");
-  Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+  Object.entries(giscusAttributes).forEach(([key, value]) =>
+    giscusScript.setAttribute(key, value)
+  );
   document.getElementById("giscus_thread").appendChild(giscusScript);
 })();
+
