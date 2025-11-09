@@ -1,0 +1,50 @@
+name: Deploy Site (Fallback - Single Job)
+
+on:
+  push:
+    branches:
+      - master
+      - main
+  workflow_dispatch:
+
+# Permissions must be explicitly granted for the default GITHUB_TOKEN
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code 🛎️
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby 💎 (Re-add build environment)
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3.5"
+          bundler-cache: true
+
+      - name: Install and Build Jekyll 🔧
+        run: |
+          # Note: Added Python and other packages needed for your full build
+          sudo apt-get update && sudo apt-get install -y imagemagick
+          pip3 install --upgrade nbconvert
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+
+      - name: Purge unused CSS 🧹
+        run: |
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
+
+      - name: Deploy to GitHub Pages (Force Push Success) 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          # IMPORTANT: We are explicitly telling it to use the default token,
+          # which is now WRITABLE thanks to the permissions block above.
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages # Target branch for deployment
+          folder: _site # Source folder from the build step
+          clean: true # Clean up old files on the gh-pages branch
