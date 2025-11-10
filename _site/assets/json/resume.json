@@ -6,7 +6,7 @@
     "email": "pranavguhathakurta@gmail.com",
     "phone": "+1 (856) 630-5505",
     "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "Economics and computer science candidate with hands-on experience in FinTech AI compliance (Y Combinator), full-stack development, and quantitative trading strategy.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,13 +24,17 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Software Engineer, Internship",
+      "position": "Flagright (YC '22 Startup), San Francisco, CA",
+      "url": "https://www.flagright.com/",
+      "startDate": "2024-05-01",
+      "endDate": "2024-08-01",
+      "summary": "AI-native AML compliance startup that provides fintechs and banks with real-time transaction monitoring, risk scoring, and case management via API-first infrastructure.",
+      "highlights": ["Led deployment of a Node.js microservice for real-time sanctions screening; supported 25K+ transactions/day via AWS API Gateway with <800 ms response latency.", 
+                     "Worked on on-prem deployment (Kuala-Lumpur, ML) for a Malaysian sovereign fund, tailoring compliance workflows to integrate with their infrastructure.",
+                     "Designed SOC‑2 audit-readiness framework and authored a Business Continuity Plan across 5+ production services; aligned compliance architecture with fintech standards.",
+                     "Evaluated LLM-powered vendors for GenAI document analysis; led benchmarking and co‑authored a whitepaper on AML/KYC enhancements."
+                    ]
     }
   ],
   "volunteer": [
