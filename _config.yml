@@ -199,6 +199,7 @@ exclude:
   - _projects/?_project.md
   - _news/announcement_*.md
   - _books/*.*
+  - README.md
 
 keep_files:
   - CNAME

@@ -5,20 +5,20 @@
     "image": "",
     "email": "pranavguhathakurta@gmail.com",
     "phone": "+1 (856) 630-5505",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "url": "https://guhathakurta.org/pranav/",
     "summary": "Economics and computer science candidate with hands-on experience in FinTech AI compliance (Y Combinator), full-stack development, and quantitative trading strategy.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "12 Kenmore Rd",
+      "postalCode": "PA 19082",
+      "city": "Upper Darby",
       "countryCode": "US",
-      "region": "California"
+      "region": "Philadelphia"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "Pranav Guha",
+        "url": "https://x.com/_pranavgt"
       }
     ]
   },
@@ -36,170 +36,181 @@
         "Designed SOC‑2 audit-readiness framework and authored a Business Continuity Plan across 5+ production services; aligned compliance architecture with fintech standards.",
         "Evaluated LLM-powered vendors for GenAI document analysis; led benchmarking and co‑authored a whitepaper on AML/KYC enhancements."
       ]
+    },
+    {
+      "name": "Software Engineer, Internship",
+      "position": "Iridium Business Solutions, Cape Town, South Africa",
+      "url": "https://iridium.co.za/",
+      "startDate": "2023-05-01",
+      "endDate": "2023-07-01",
+      "summary": "Cloud-based accounting, advisory, and automation firm helping SMEs streamline their finance operations via tech-driven automation tools.",
+      "highlights": [
+        "Developed a financial analytics dashboard using React + AWS (CloudFront, S3, DynamoDB, Lambda, Cognito, API Gateway) for 50+ SME clients.",
+        "Built 10+ REST endpoints and secure UI components managing 1K+ daily requests; implemented Cognito-based role authentication.",
+        "Streamlined reporting workflows in accounting/payroll SaaS integration, improving client throughput by 30%."
+      ]
+    },
+    {
+      "name": "Event & Product Operations Coordinator (Contract)",
+      "position": "FinTech Global, New York, NY",
+      "url": "https://fintech.global/",
+      "startDate": "2023-09-01",
+      "endDate": "2024-09-01",
+      "summary": "RegTech/InsureTech event production and networking support in fintech industry forums.",
+      "highlights": [
+        "Coordinated logistics and stage operations at industry events, introduced keynote speakers, and organized technical networking sessions for participants."
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Penn - Netter Center For Community Partnership",
+      "location": "Philadelphia, PA",
+      "url": "https://www.nettercenter.upenn.edu/what-we-do/university-assisted-community-schools",
+      "position": "Mentor",
+      "startDate": "2022-09-01",
+      "endDate": "2026-05-02",
+      "summary": "Served as a college readiness and academic success mentor for a West Philadelphia student through the UPenn Netter Center's University-Assisted Community School (UACS) program.Delivered personalized math tutoring and comprehensive guidance to support the student's successful transition to higher education.",
+      "highlights": []
+    },
+    {
+      "organization": "Wharton Together",
+      "location": "Philadelphia, PA",
+      "url": "https://undergrad-inside.wharton.upenn.edu/student-organizations/",
+      "position": "Board member",
+      "startDate": "2022-09-01",
+      "endDate": "2026-05-01",
+      "summary": "Wharton Together aims to provide a more inclusive Wharton community where students of all backgrounds feel that Wharton is a welcoming and equitable space through initiatives and programs.",
+      "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "institution": "University of Pennsylvania - The Wharton School",
+      "location": "Philadelphia, PA",
+      "url": "https://www.wharton.upenn.edu/",
+      "area": "Finance, Computer Science",
+      "studyType": "Bachelors",
+      "startDate": "2022-08-01",
+      "endDate": "2026-05-01",
+      "score": "3.3",
+      "courses": ["Data Structures & Algorithms"]
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "institution": "Princeton High School",
+      "location": "Princeton, NJ",
+      "url": "https://www.princetonk12.org/princeton-high-school",
+      "area": "",
+      "studyType": "High School",
+      "startDate": "1998-09-01",
+      "endDate": "2022-06-01",
+      "score": "4.00",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Accounting & Financial<br>Statement Analysis",
+      "date": "2025-05",
+      "issuer": "Wall St. Prep",
+      "url": "/assets/pdf/WallStPrep_145511757.pdf",
+      "credentialId": "145511757",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Analyzing Financial<br>Reports",
+      "date": "2025-04",
+      "issuer": "Wall St. Prep",
+      "url": "/assets/img/WallStPrep_140077959.png",
+      "credentialId": "140077959",
       "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Bloomberg Market Concepts",
+      "date": "2024-01",
+      "issuer": "Bloomberg for Education",
+      "url": "/assets/pdf/Bloomberg.pdf",
+      "credentialId": "xB4t69HuSFktL8EpmphagZFm",
       "icon": "fa-solid fa-envelope"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "AWS - Certified Cloud Practitioner",
+      "date": "2023-09",
+      "issuer": "Amazon Web Services",
+      "url": "/assets/pdf/AWSCertificate.pdf",
+      "credentialId": "TYKXPHL1<BR>WBE4QXWL",
       "icon": "fa-solid fa-hashtag"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Fundamentals of Quantitative Modeling",
+      "date": "2022-06",
+      "issuer": "Wharton Online",
+      "url": "/assets/pdf/WhartonQuantModelingCert.pdf",
+      "credentialId": "RJJP2P5KJ79Q",
       "icon": "fa-solid fa-calendar"
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Tools for Data Science",
+      "date": "2021-06",
+      "issuer": "IBM",
+      "url": "/assets/pdf/IBMToolsForDataScienceCert.pdf",
+      "credentialId": "QEDAEU3DMAV6",
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
+  "publications": [],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Languages",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "keywords": ["Python", "Java", "SQL", "HTML/CSS"]
+    },
+    {
+      "name": "Frameworks",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Node.js", "React", "Express", "Micronaut", "MongoDB", "DynamoDB"]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["AWS (Lambda, S3, API Gateway, Cognito)", "Firebase", "Docker", "Git, Github", "Linux CLI", "GCP (Cloud Functions, Pub/Sub)"]
+    },
+    {
+      "name": "Databases",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["PostgreSQL", "SQL Server", "MongoDB", "DynamoDB", "Neo4j"]
+    },
+    {
+      "name": "Concepts, Other",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["REST APIs", "JSON", "CI/CD", "Microservices", "Event-Driven Architecture"]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Native",
       "icon": ""
     },
     {
-      "language": "English",
+      "language": "Spanish",
       "fluency": "Fluent",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Soccer",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "keywords": []
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
+  "references": [],
+  "projects": []
 }
