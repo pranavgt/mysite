@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/mysite/resume/";
           },
-        },{id: "post-agi-builders-meetup-sfo",
+        },{id: "post-neurips-2025-san-diego",
+        
+          title: "NeurIPS 2025 San Diego",
+        
+        description: "field notes ...",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mysite/blog/2025/neurips/";
+          
+        },
+      },{id: "post-agi-builders-meetup-sfo",
         
           title: "AGI Builders Meetup SFO",
         

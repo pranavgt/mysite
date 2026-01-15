@@ -12,11 +12,6 @@ The AGI Builders Meetup at GitHub HQ was a refreshing mix of builders and bounda
 
 The community demos were a testament to this, with an open and curious energy that encouraged rapid, and sometimes messy, innovation. It's a field where competitive innovation rises all boats. The examples were numerous, but a few stood out. <a href="https://www.epsilla.com/" target="_blank">Epsilla</a> showed the foundational value of specialized vector databases in delivering real-time RAG, while <a href="https://www.contextqa.ai/" target="_blank">ContextQA</a> demonstrated a powerful, purpose-built AI helper for business insights. On the developer side, <a href="https://hidevs.ai/" target="_blank">HiDevs</a> provided a glimpse into the future of automated software development. Each company was building a specific, high-value tool, collectively paving the way for a more specialized and accessible AI ecosystem.
 <br>
-<br>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Happy I made it to <a href="https://twitter.com/hashtag/NeurIPS2025?src=hash&amp;ref_src=twsrc%5Etfw">#NeurIPS2025</a> San Diego before finals!! <a href="https://t.co/0fYrJKsW0P">pic.twitter.com/0fYrJKsW0P</a></p>&mdash; Pranav Guha (@_pranavgt) <a href="https://twitter.com/_pranavgt/status/1996991029325799765?ref_src=twsrc%5Etfw">December 5, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<br>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

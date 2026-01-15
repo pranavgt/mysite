@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="https://www.wharton.upenn.edu/" target="_blank">U Penn '26</a>. Math. Markets. Code.
+subtitle: <a href="https://www.wharton.upenn.edu/" target="_blank">Wharton (UPenn) '26</a>. Math. Markets. Code.
 
 profile:
   align: right
