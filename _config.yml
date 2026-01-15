@@ -651,6 +651,3 @@ jsonresume:
   - languages
   - interests
   - references
-
-plugins:
-  - jekyll-twitter-plugin
