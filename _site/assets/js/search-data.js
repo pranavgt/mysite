@@ -41,6 +41,17 @@ ninja.data = [{
             window.location.href = "/mysite/blog/2025/neurips/";
           
         },
+      },{id: "post-reflections-on-ucsc",
+        
+          title: "Reflections on UCSC",
+        
+        description: "UCSC Campus",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/mysite/blog/2025/ucsc-visit/";
+          
+        },
       },{id: "post-agi-builders-meetup-sfo",
         
           title: "AGI Builders Meetup SFO",
