@@ -14,9 +14,9 @@ images:
   venobox: true
 ---
 
-I’ve spent a lot of time on university campuses. Between years of competitive soccer and recruitment visits, I think I have seen my fair share of pristine, manicured to perfection quads designed to wow the prospective student. But my visit to UC Santa Cruz for the closing day of the Science Internship Program (SIP) was a genuine surprise and a special treat.
+I’ve spent a lot of time on university campuses. Between years of competitive soccer and recruitment visits, I think I have seen my fair share of manicured to perfection quads designed to wow the prospective student. But my visit to UC Santa Cruz for the closing day of the Science Internship Program (SIP) was a genuine surprise and a special treat.
 
-The natural beauty of the campus itself was a hidden surprise. Uniquely brutalist structures tucked amidst rich redwood, it was a reset from usual Bay Area tech circles and "in-crowd" hack spaces. It had the quiet, meditative, but incredibly focused energy of : "I know what I am doing, and I don't need the trendy, in-crowd posturing to advertise it.
+The natural beauty of the campus itself was a hidden surprise. Uniquely brutalist structures tucked amidst rich redwood, it was a reset from usual Bay Area tech circles and "in-crowd" hack spaces. It had the quiet, meditative, but incredibly focused energy of : "I know what I am doing, and I don't need the trendy, in-crowd posturing to advertise it."
 
 The afternoon started with a conversation with Professor Raja Guha Thakurta and ended with a front-row seat to the SIP closing presentations. Seeing high schoolers diving into authentic, open-ended research reminded me of my own "recalibration". That familiar mix of trepidation and excited optimism in the room was very relatable.
 
