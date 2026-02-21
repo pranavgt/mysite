@@ -62,6 +62,30 @@
       ]
     }
   ],
+
+"club": [
+    {
+      "organization": "Wharton Investment Trading Group (WITG)",
+      "location": "Philadelphia, PA",
+      "url": "https://www.pennwitg.com/",
+      "position": "Quantitative Analyst",
+      "startDate": "2022-09-01",
+      "endDate": "2026-05-15",
+      "summary": "Conducted equity research and pitched investing strategies by analyzing macroeconomic data and sector trends.<br><br>Built detailed financial projections and valuation models in Excel to support weekly portfolio recommendations.",
+      "highlights": []
+    },
+    {
+      "organization": "Wharton - Global Research & Consulting (GRC)",
+      "location": "Philadelphia, PA",
+      "url": "https://www.grcglobalgroup.com/",
+      "position": "Project Consultant",
+      "startDate": "2022-09-01",
+      "endDate": "2026-05-15",
+      "summary": "Advised non-profit and social enterprise clients on capital allocation and operational risk management. <br><br>Prepared client-ready presentation decks and 'what-if' scenario models for executive-level decision-making.",
+      "highlights": []
+    }
+  ],
+
   "volunteer": [
     {
       "organization": "Penn - Netter Center For Community Partnership",
@@ -84,6 +108,7 @@
       "highlights": []
     }
   ],
+  
   "education": [
     {
       "institution": "University of Pennsylvania - The Wharton School",
@@ -108,7 +133,6 @@
       "courses": []
     }
   ],
-  "awards": [],
   "certificates": [
     {
       "name": "Accounting & Financial<br>Statement Analysis",
