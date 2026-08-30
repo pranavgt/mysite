@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="https://www.wharton.upenn.edu/" target="_blank">Wharton (UPenn) '26</a>. Math. Markets. Code.
+subtitle: <b>Math. Markets. Code.</b> <br><a href="https://www.cis.upenn.edu/mse-in-cis/" target="_blank"> MSE Computer Science - UPenn '27 </a><br><a href="https://www.wharton.upenn.edu/" target="_blank">B.S. in Economics – Finance; Minor in Computer Science, Wharton - UPenn '26</a>. 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>The Wharton School</p>
+   <!-- <p>The Wharton School</p>
     <p>Jon M. Huntsman Hall,</p>
-    <p>3730 Walnut St, Philadelphia, PA 19104</p>
+    <p>3730 Walnut St, Philadelphia, PA 19104</p> -->
 
 selected_papers: false # includes a list of papers marked as "selected={true}" -- PGT Changed to false undisplay on home page
 social: true # includes social icons at the bottom of the page
@@ -27,9 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-As a Wharton Economics senior with a Computer Science minor, I operate at the intersection of <b>math, markets, and code</b> to build high-performance systems and analytics. I translate complex data into practical, scalable solutions that serve real customers.
+I operate at the intersection of <b>math, markets, and code</b> to build high-performance systems and analytics. I translate complex data into practical, scalable solutions that serve real customers.
 
-My current research, under the guidance of <a href="https://gileshooker.com/" target="_blank">Prof. Giles Hooker</a>, explores how <b>graph databases and ontologies</b> can be leveraged within AI/ML frameworks to build more <a>reliable and auditable</a> systems for regulatory and trade compliance.
+My undergraduate research, under the guidance of <a href="https://gileshooker.com/" target="_blank">Prof. Giles Hooker</a>, explores how <b>graph databases and ontologies</b> can be leveraged within AI/ML frameworks to build more <a>reliable and auditable</a> systems for regulatory and trade compliance.
 
 I have built and deployed performant, scalable production systems. At <a href="https://www.flagright.com/" target="_blank">Flagright</a> a Y Combinator-backed fintech, I engineered and deployed a Node.js sanctions-screening microservice on AWS. This system supported over 25,000 daily transactions with sub-800ms P95 latency.
 
