@@ -111,15 +111,25 @@
 
   "education": [
     {
+      "institution": "University of Pennsylvania - School of Engineering and Applied Science",
+      "location": "Philadelphia, PA",
+      "url": "https://www.cis.upenn.edu/mse-in-cis/",
+      "area": "M.S.E. in Computer Science",
+      "studyType": "MS",
+      "startDate": "2026-08-17",
+      "endDate": "2027-12-17",
+      "score": "N.A"      
+    },
+    {
       "institution": "University of Pennsylvania - The Wharton School",
       "location": "Philadelphia, PA",
       "url": "https://www.wharton.upenn.edu/",
-      "area": "Finance, Computer Science",
-      "studyType": "Bachelors",
+      "area": "Major: Finance,  Minor: Computer Science",
+      "studyType": "BS",
       "startDate": "2022-08-01",
       "endDate": "2026-05-01",
-      "score": "3.3",
-      "courses": ["Data Structures & Algorithms"]
+      "score": "3.51",
+      "courses": ["Data Structures & Algorithms", "Computer Systems", "Programming Languages","Mathematical Foundations of CS" , "Databases", "Statistics", "Quantitative Modeling"]
     },
     {
       "institution": "Princeton High School",
