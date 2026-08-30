@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>Math. Markets. Code.</b> <br><a href="https://www.cis.upenn.edu/mse-in-cis/" target="_blank"> MSE Computer Science - UPenn '27 </a><br><a href="https://www.wharton.upenn.edu/" target="_blank">B.S. in Economics – Finance; Minor in Computer Science, Wharton - UPenn '26</a>. 
+subtitle: <b><a href="https://www.cis.upenn.edu/mse-in-cis/" target="_blank"> MSE Computer Science - UPenn '27 </a><br><a href="https://www.wharton.upenn.edu/" target="_blank">B.S. in Economics – Finance; Minor in Computer Science, Wharton - UPenn '26</a>. </b>
 
 profile:
   align: right
@@ -29,8 +29,8 @@ latest_posts:
 
 I operate at the intersection of <b>math, markets, and code</b> to build high-performance systems and analytics. I translate complex data into practical, scalable solutions that serve real customers.
 
-My undergraduate research, under the guidance of <a href="https://gileshooker.com/" target="_blank">Prof. Giles Hooker</a>, explores how <b>graph databases and ontologies</b> can be leveraged within AI/ML frameworks to build more <a>reliable and auditable</a> systems for regulatory and trade compliance.
+My undergraduate research, under the guidance of <b><a href="https://gileshooker.com/" target="_blank">Prof. Giles Hooker</a></b>, explores how <b>graph databases and ontologies</b> can be leveraged within AI/ML frameworks to build more <a>reliable and auditable</a> systems for regulatory and trade compliance.
 
-I have built and deployed performant, scalable production systems. At <a href="https://www.flagright.com/" target="_blank">Flagright</a> a Y Combinator-backed fintech, I engineered and deployed a Node.js sanctions-screening microservice on AWS. This system supported over 25,000 daily transactions with sub-800ms P95 latency.
+I have built and deployed performant, scalable production systems. At <b><a href="https://www.flagright.com/" target="_blank">Flagright</a></b> a Y Combinator-backed fintech, I engineered and deployed a Node.js sanctions-screening microservice on AWS. This system supported over 25,000 daily transactions with sub-800ms P95 latency.
 
 My passion lies in building efficient, data-driven solutions. Recent projects include a hybrid graph-document store that achieved 92% top-K recall and cut query time by 38%, and a real-time sanctions detector that alerts in under a second. I have a diverse and growing toolkit : from Python and Java to AWS and GCP . learn diverse technologies quickly. My strength lies in my ability to rapidly learn and apply new technologies with precision.
